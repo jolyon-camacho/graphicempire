@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empire Graphics</title>
+    <link rel="stylesheet" href="index/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://rawgit.com/patriciogonzalezvivo/glslCanvas/master/dist/GlslCanvas.js"></script>
+</head>
+<body>
+    <header class="padding-horizontal">
+        <img src="index/assets/LOGO-Impire-Graphics.svg" alt="">
+        <nav>
+            <ul>
+                <a href="">
+                    Home
+                </a>
+                <a href="">
+                    Servicios
+                </a>
+                <a href=""> 
+                    Contacto
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero padding-horizontal">
+            <div class="hero__title">
+                <h1 class="title-main color--white">Creating your vision, one print at a time</h1>
+                <p class="txt-body color--white">We are experts in the design and installation of general graphics. Bring your projects to life with impactful visual solutions.</p>
+                <a class="txt-btn btn--primary">Contactar ahora</a>
+            </div>
+            
+            <div class="gallery-container">
+                <h2 class="txt-h1 gallery-title">Mi Galería de Fotos</h2>
+                
+                <img id="mainImage" class="main-image" src="" alt="Imagen principal">
+                
+                <div class="thumbnails" id="thumbnailContainer">
+                    <img src="/index/assets/image.png" class="thumbnail" data-index="0" alt="Miniatura 1">
+                    <img src="https://via.placeholder.com/100x100?text=2" class="thumbnail" data-index="1" alt="Miniatura 2">
+                    <img src="https://via.placeholder.com/100x100?text=3" class="thumbnail" data-index="2" alt="Miniatura 3">
+                    <img src="https://via.placeholder.com/100x100?text=4" class="thumbnail" data-index="3" alt="Miniatura 4">
+                    <img src="https://via.placeholder.com/100x100?text=5" class="thumbnail" data-index="4" alt="Miniatura 5">
+                </div>
+                
+            </div>
+
+            <a class="txt-btn btn--primary">Contactar ahora</a>
+            <canvas id="shader" class="glslCanvas shader" data-name="hhholographic" width="1536" height="1536"></canvas>
+        </section>
+
+        <section class="services-section padding-horizontal">
+            <div class="section__title">
+                <h2 class="txt-h2 color--white">Our services</h2>
+                <p class="txt--body color--white">Discover the services we offer:</p>
+            </div>
+
+            <div class="services">
+                <div class="services__column">
+                    <div class="service__card">
+                        <img src="index/assets/banner-icon--graphic-print- (1) 1.png" alt="" class="card__img">
+                        <p class="txt-body color--white">Banner</p>
+                        <a href="" class="btn--secondary txt--button">To view works</a>
+                    </div>
+                    <div class="service__card">
+                        <img src="index/assets/car-wrappin-icon--graphic-print- 1.png" alt="" class="card__img">
+                        <p class="txt-body color--white">Poster</p>
+                        <a href="" class="btn--secondary txt--button">To view works</a>
+                    </div>
+                    <div class="service__card">
+                        <img src="index/assets/door-of-a-car--graphic-print- 1.png" alt="" class="card__img">
+                        <p class="txt-body color--white">Wall Mural</p>
+                        <a href="" class="btn--secondary txt--button">To view works</a>
+                    </div>
+                    <div class="service__card">
+                        <img src="index/assets/lettering-icon--graphic-print- 1.png" alt="" class="card__img">
+                        <p class="txt-body color--white">Wallpaper</p>
+                        <a href="" class="btn--secondary txt--button">To view works</a>
+                    </div>  
+                </div>
+                <div class="services__column">
+                    <div class="service__card">
+                        <img src="index/assets/poster-icon--graphic-print- 1.png" alt="" class="card__img">
+                        <p class="txt-body color--white">Sign</p>
+                        <a href="" class="btn--secondary txt--button">To view works</a>
+                    </div>
+                    <div class="service__card">
+                        <img src="index/assets/wall-mural-icon--graphic-print- (1) 1.png" alt="" class="card__img">
+                        <p class="txt-body color--white">Windows tint</p>
+                        <a href="" class="btn--secondary txt--button">To view works</a>
+                    </div>
+                    <div class="service__card">
+                        <img src="index/assets/wallpaper-icon--graphic-print- 2.png" alt="" class="card__img">
+                        <p class="txt-body color--white">Vinyl lettering</p>
+                        <a href="" class="btn--secondary txt--button">To view works</a>
+                    </div>
+                    <div class="service__card">
+                        <img src="index/assets/sign-icon--graphic-print- (1) 1.png" alt="" class="card__img">
+                        <p class="txt-body color--white">Car & boat wrapping</p>
+                        <a href="" class="btn--secondary txt--button">To view works</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="benefits-section padding-horizontal">
+            <p class="txt-h2 color--white">Benefits</p>
+            <div class="benefits__card">
+                <div class="benefits__items">
+                    <div class="benefit">
+                        <img src="index/assets/star 1.png" alt="" class="benefit__img">
+                        <p class="txt-stitle color--white txt-aling--center">We handle the best materials</p>
+                        <p class="txt-body color--white txt-aling--center">A wide range of materials to suit your needs</p>
+                    </div>
+                    <div class="benefit">
+                        <img src="index/assets/star 1.png" alt="" class="benefit__img">
+                        <p class="txt-stitle color--white txt-aling--center">We adapt to your needs</p>
+                        <p class="txt-body color--white txt-aling--center">We design custom solutions for your needs</p>
+                    </div>
+                    <div class="benefit">
+                        <img src="index/assets/star 1.png" alt="" class="benefit__img">
+                        <p class="txt-stitle color--white txt-aling--center">Professional services</p>
+                        <p class="txt-body color--white txt-aling--center">Since 2010. <br> 14 years of experience</p>
+                    </div>
+                </div>
+            
+                <a class="txt-btn btn--primary">Contactar ahora</a>
+            </div>
+        </section>
+
+        <section class="testimonials-section padding-horizontal">
+            <p class="txt-h2 color--white">Testimonios</p>
+            <div class="testimonials">
+                <div class="testimonial__card">
+                    <img src="index/assets/Rectangle 30.png" alt="">
+                    <p class="txt-title color--white">Juan Perez</p>
+                    <p class="text-body color--white">"En mi negocio logramos un trabajo excelente."</p>
+                </div>
+                <div class="testimonial__card">
+                    <img src="index/assets/Rectangle 35.png" alt="">
+                    <p class="txt-title color--white">Juan Perez</p>
+                    <p class="text-body color--white">"En mi negocio logramos un trabajo excelente."</p>
+                </div>
+                <div class="testimonial__card">
+                    <img src="index/assets/Rectangle 36.png" alt="">
+                    <p class="txt-title color--white">Juan Perez</p>
+                    <p class="text-body color--white">"En mi negocio logramos un trabajo excelente."</p>
+                </div>
+            </div>
+        </section>
+        
+        <img class="decoration--hero-1" src="index/assets/Decoration-shape-3.svg" aria-hidden="true">
+        <img class="decoration--hero-2" src="index/assets/Decoration-shape-2.svg" aria-hidden="true">
+        <img class="decoration--hero-3" src="index/assets/Decoration-shape-1.svg" aria-hidden="true">
+        <img class="decoration--hero-4" src="index/assets/Decoration-shape-4.svg" aria-hidden="true">
+        <img class="decoration--hero-5" src="index/assets/Decoration-shape-2.svg" aria-hidden="true">
+        <img class="decoration--hero-6" src="index/assets/Decoration-shape-3.svg" aria-hidden="true">
+        <img class="decoration--hero-7" src="index/assets/Decoration-shape-3.svg" aria-hidden="true">
+        <img class="decoration--hero-8" src="index/assets/Decoration-shape-1.svg" aria-hidden="true">
+        <img class="decoration--hero-9" src="index/assets/Decoration-shape-8.svg" aria-hidden="true">
+    </main>
+
+    <footer >
+        <section>
+            <img src="index/assets/LOGO-Impire-Graphics.svg" alt="">
+            
+            <p class="txt-stitle color--white">Informacion
+            </p>
+        </section>
+        <section>
+            <p class="txt-stitle color--white">C 2025 Empire Graphics</p>
+            social media
+        </section>
+    </footer>
+    <script src="index/hologram.js"></script>
+    <script src="index/main.js"></script> 
+</body>
+</html>

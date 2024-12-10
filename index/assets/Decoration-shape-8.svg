@@ -1,0 +1,33 @@
+<svg width="1586" height="1725" viewBox="0 0 1586 1725" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_86_177)">
+<path d="M1185.09 1578.88C1094.09 1323.88 1050.09 898.877 832.09 745.877C614.09 592.877 351.09 563.877 310.09 216.878" stroke="url(#paint0_linear_86_177)" stroke-width="60"/>
+</g>
+<g opacity="0.25" filter="url(#filter1_f_86_177)">
+<path d="M1204.09 1554.88C1141.09 1504.88 1057.28 999.067 908.091 800.877C737.446 574.182 289.091 603.877 319.091 211.877" stroke="url(#paint1_linear_86_177)" stroke-width="60"/>
+</g>
+<path d="M347.091 0.877682C347.091 0.877682 343.09 391.878 421.09 499.878C499.09 607.878 874.09 735.878 982.09 862.878C1090.09 989.878 1113.09 1637.88 1240.09 1622.88" stroke="url(#paint2_linear_86_177)" stroke-width="60"/>
+<defs>
+<filter id="filter0_f_86_177" x="144.298" y="77.3574" width="1205.05" height="1647.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="68" result="effect1_foregroundBlur_86_177"/>
+</filter>
+<filter id="filter1_f_86_177" x="175.657" y="97.5884" width="1159.09" height="1592.79" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="56" result="effect1_foregroundBlur_86_177"/>
+</filter>
+<linearGradient id="paint0_linear_86_177" x1="-11626.7" y1="-1412.31" x2="-4949.15" y2="-26333.3" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0476D9"/>
+<stop offset="1" stop-color="#EE05F2"/>
+</linearGradient>
+<linearGradient id="paint1_linear_86_177" x1="-11593.5" y1="-1403.41" x2="-4915.94" y2="-26324.4" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0476D9"/>
+<stop offset="1" stop-color="#EE05F2"/>
+</linearGradient>
+<linearGradient id="paint2_linear_86_177" x1="1215.09" y1="1607.88" x2="336.09" y2="262.877" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0476D9"/>
+<stop offset="1" stop-color="#EE05F2"/>
+</linearGradient>
+</defs>
+</svg>
