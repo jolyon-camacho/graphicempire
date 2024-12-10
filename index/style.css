@@ -47,6 +47,7 @@ body {
         display: flex;
         flex-direction: column;
         gap: 160px;
+        overflow: hidden;
 
         .hero {
             display: flex;
@@ -233,7 +234,7 @@ body {
         }  
         
          /* DECORATION ELEMENTS */
-         /* .decoration--hero-1 {
+        .decoration--hero-1 {
             position: absolute;
             left: calc(50% - 60px);
             width: 120px;
@@ -243,6 +244,7 @@ body {
             display: none;
         }
         .decoration--hero-3 {
+            overflow: hidden;
             position: absolute;
             left: calc(95% - 100px);
             width: 150px;
@@ -268,12 +270,13 @@ body {
             display: none;
         }
         .decoration--hero-9 {
+            overflow: hidden;
             position: absolute;
             left: -48%;
             width: 200%;
             top: 1000px;
             z-index: -1;
-        } */
+        }
     }
 
     footer {
@@ -307,8 +310,7 @@ body {
         }
         
         main {    
-            gap: 80px;        
-            
+            gap: 80px;   
             .hero {
                 height: calc(100vh - 80px);
                 display: flex;
@@ -486,36 +488,48 @@ body {
                 position: absolute;
                 left: calc(50% - 56px);
                 bottom: 58%;
+                width: auto;
+                top: auto;    
             }
             .decoration--hero-2 {
+                display: block;
                 position: absolute;
                 left: calc(90% - 120px);
                 bottom: -170px;
             }
             .decoration--hero-3 {
+                display: block;
                 position: absolute;
                 left: calc(10% - 120px);
                 bottom: -130px;
+                width: auto;
+                top: auto;    
             }
-            .decoration--hero-4 {        
+            .decoration--hero-4 {   
+                display: block;     
                 position: absolute;
                 left: -2%;
                 bottom: -690px;
                 z-index: -1;
             }
             .decoration--hero-5 {
+                display: block;
                 position: absolute;
                 left: calc(7% - 120px);
                 bottom: -1080px;
                 z-index: -1;
             }
             .decoration--hero-6 {
+                display: block;
                 position: absolute;
                 left: calc(91% - 120px);
                 bottom: -830px;
                 z-index: -1;
+                width: auto;
+                top: auto;
             }
             .decoration--hero-7 {
+                display: block;
                 position: absolute;
                 left: calc(11% - 120px);
                 transform: rotate(-45deg);
@@ -523,13 +537,14 @@ body {
                 z-index: -1;
             }
             .decoration--hero-8 {
+                display: block;
                 position: absolute;
                 left: calc(94% - 120px);
                 bottom: -1300px;
                 z-index: 1;
             }
             .decoration--hero-9 {
-                display: none;
+               display: none;
             }
         }   
     }
