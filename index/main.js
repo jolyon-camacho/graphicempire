@@ -1,19 +1,24 @@
 // Arreglo de imágenes (URLs)
 const images = [
-    '/index/assets/image.png',
-    'https://via.placeholder.com/600x400?text=Imagen+2', 
-    'https://via.placeholder.com/600x400?text=Imagen+3',
-    'https://via.placeholder.com/600x400?text=Imagen+4',
-    'https://via.placeholder.com/600x400?text=Imagen+5'
+    'index/assets/wall-vinyl-empire-graphics.jfif',
+    'index/assets/barricade-graphics-empire.jfif', 
+    'index/assets/service-graphic-empire-1.jpeg',
+    'index/assets/service-graphic-empire-2.jpeg',
+    'index/assets/service-graphic-empire-3.jpeg',
+    'index/assets/service-graphic-empire-4.jpeg',
+    'index/assets/service-graphic-empire-5.jpeg'
 ];
 
 // Arreglo de títulos correspondientes a las imágenes
+// Wallpaper, frosted, film, wallvinyl, Barricade, light boxes, fabric
 const titles = [
-    'Primer',
-    'Segundo',
-    'Tercera',
-    'Cuarta',
-    'Quinta'
+    'Wall Vinyl',
+    'Barricade',
+    'Wallpaper',
+    'Frosted',
+    'Fill',
+    'Light boxes',
+    'and more...',
 ];
 
 const mainImage = document.getElementById('mainImage');

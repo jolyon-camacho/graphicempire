@@ -94,15 +94,17 @@ body {
                     object-fit: cover;
                     border-radius: 24px;
                     /* margin: 0 16px; */
+                    transition: fadeIn 3s ease-in-out;
                 }
                 
                 .gallery-title {
                     width: fit-content;
                     color: #fff;
-                    transition: opacity 0.3s ease;
+                    transition: fadeIn 3s ease-in-out;
                     position: relative;
                     top: 20px;
                     line-height: 20px;
+                    filter: drop-shadow(2px 4px 6px black);
                 }
                 
                 .thumbnails {
@@ -120,14 +122,14 @@ body {
                     border-radius: 8px;
                     cursor: pointer;
                     opacity: 0.6;
-                    transition: opacity 0.3s ease;
+                    transition: fadeIn 3s ease-in-out;
                     aspect-ratio: 1 / 1;
                     border: 2px solid #007bff00;
                 }
                 
                 .thumbnail:hover, .thumbnail.active {
                     opacity: 1;
-                    border: 2px solid #007bff;
+                    border: 2px solid rgba(4,118,217,1) ;
                 }
             }            
         }
@@ -162,7 +164,8 @@ body {
                         backdrop-filter: blur(23.399999618530273px);
 
                         img {
-                            width: 80px;
+                            width: 100%;
+                            border-radius: 16px;
                         }
 
                         text-align: center;
@@ -327,12 +330,12 @@ body {
                     left: 0;
                 }
     
-                a {
+                .btn--primary {
                     display: none;
                 }
 
                 .hero__title {
-                    align-items: center;
+                    align-items: flex-start;
                     display: flex;
                     flex-direction: column;
                     gap: 16px;
@@ -340,6 +343,7 @@ body {
     
                     a {
                         display: flex;
+                        max-width: 480px;
                     }
                 }
     
@@ -617,26 +621,42 @@ body {
     text-align: center;
 }
 
-.btn--primary {
-    align-items: center;
-    background: #FFF;
-    border-radius: 30px;
-    display: flex;
-    gap: 16px;
-    justify-content: center;
-    padding: 12px 24px;
-    width: 100%;
-}
-
-.btn--secondary {
-    align-items: center;
-    background: #ffffff00;
-    border: 1px solid white;
-    border-radius: 30px;
-    display: flex;
-    gap: 16px;
-    justify-content: center;
-    padding: 8px 24px;
-    width: 100%;
-    color: white;
+/* BUTTONS */
+:root {
+    .btn--primary {
+        align-items: center;
+        background: #FFF;
+        border-radius: 30px;
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+        padding: 12px 24px;
+        width: 100%;
+        cursor: pointer;
+    }
+    .btn--primary:hover {
+        background: #ececec;
+    }
+    .btn--primary:active {
+        background: #dbdbdb;
+    }
+    
+    .btn--secondary {
+        align-items: center;
+        background: #ffffff00;
+        border: 1px solid rgb(209, 209, 209);
+        border-radius: 30px;
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+        padding: 8px 24px;
+        width: 100%;
+        color: white;
+    }
+    .btn--secondary:hover {
+        background-color: #ffffff18;
+    }
+    .btn--secondary:active {
+        background-color: #ffffff3b;
+    }
 }
