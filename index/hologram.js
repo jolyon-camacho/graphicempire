@@ -35,7 +35,7 @@ function setUniforms() {
     sandbox.setUniform('u_washout', 0.5);  // Controla el brillo mínimo
     sandbox.setUniform('u_zoom', 10.0);     // Controla el zoom del efecto
     sandbox.setUniform('u_complexity', 0.7); // Controla la complejidad del patrón
-    sandbox.setUniform('u_mix', 0.7);      // Controla la mezcla con color fondo
+    sandbox.setUniform('u_mix', 0.6);      // Controla la mezcla con color fondo
 }
 
 // Establecer uniformes iniciales
