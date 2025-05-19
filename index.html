@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,14 +20,14 @@
                     <a href="#">
                         Home
                     </a>
-                    <a href="#">
+                    <a href="#services">
                         Services
                     </a>
-                    <a href="#"> 
+                    <a href="#about"> 
                         About
                     </a>
-                    <a href="#"> 
-                        WhatsApp!
+                    <a class="rainbow-btn btn--primary" href="#"> 
+                        <span>WhatsApp!</span>
                     </a>
                 </ul>
             </nav>
@@ -36,7 +36,7 @@
             <div class="hero__title">
                 <h1 class="title-main color--white">Creating your vision, one print at a time</h1>
                 <p class="txt-stitle color--white">We are experts in the design and installation of general graphics. Bring your projects to life with impactful visual solutions.</p>
-                <a href="#" class="rainbow-btn txt-btn btn--primary"><span>Contact me</span></a>
+                <a href="#" class="rainbow-btn txt-btn btn--primary"><span>Contact now</span></a>
             </div>
             
             <div class="gallery-container">
@@ -53,14 +53,8 @@
                     <img src="index/assets/service-graphic-empire-4.jpeg" class="thumbnail" data-index="5" alt="Miniatura 5">
                     <img src="index/assets/service-graphic-empire-5.jpeg" class="thumbnail" data-index="6" alt="Miniatura 5">
                 </div>
-                
             </div>
             
-            <!-- <img class="vector--hero-2" src="index/assets/Vectors/vector-2-city.svg" aria-hidden="true">
-            <img class="vector--hero-3" src="index/assets/Vectors/vector-3-city.svg" aria-hidden="true">
-            <img class="vector--hero-4" src="index/assets/Vectors/vector-4-city.svg" aria-hidden="true"> -->
-            
-            <a href="#" class="txt-btn btn--primary">Contact now</a>
             <!-- <canvas id="shader" class="glslCanvas shader" data-name="hhholographic" width="1536" height="1536"></canvas> -->
         </section>
         <img class="vector--hero-1" src="index/assets/Vectors/vector-1-palms.svg" aria-hidden="true">
@@ -78,7 +72,8 @@
                 <img src="index/assets/Enterprise/unilever.svg" alt="">
             </div>
         </section>
-        <section class="services-section ">
+        
+        <section class="services-section" id="services">
             <div class="section__title padding-horizontal">
                 <h2 class="titulo-gradiente">Our services</h2>
                 <p class="txt--body color--white">Discover the services we offer:</p>
@@ -139,29 +134,49 @@
             <img src="index/assets/Vectors/vector-background-vice.svg" alt="" class="vector--background-vice">
         </section>
 
-        <section class="benefits-section padding-horizontal">
-            <p class="titulo-gradiente">Benefits</p>
-            <div class="benefits__card">
-                <div class="benefits__items">
-                    <div class="benefit">
-                        <img src="index/assets/benefits-icons-1.svg" alt="" class="benefit__img">
-                        <p class="txt-stitle color--white txt-aling--center">We handle the best materials</p>
-                        <p class="txt-body color--white txt-aling--center">A wide range of materials <br> to suit your needs</p>
-                    </div>
-                    <div class="benefit">
-                        <img src="index/assets/benefits-icons.svg" alt="" class="benefit__img">
-                        <p class="txt-stitle color--white txt-aling--center">We adapt to your needs</p>
-                        <p class="txt-body color--white txt-aling--center">We design custom  <br> solutions for your needs</p>
-                    </div>
-                    <div class="benefit">
-                        <img src="index/assets/benefits-icons-2.svg" alt="" class="benefit__img">
-                        <p class="txt-stitle color--white txt-aling--center">Professional services</p>
-                        <p class="txt-body color--white txt-aling--center">Since 2010. <br> 14 years of experience</p>
-                    </div>
-                </div>
-            
+        <section class="location-section padding-horizontal" id="about">
+            <div class="location__content">
+                <h2 class="titulo-gradiente">Our location</h2>
+                <p class="txt-body color--white-soft">We have 20 years of experience working with all types of graphic solutions. <br><br> We take care of carrying out work throughout Miami.</p>
                 <a href="#" class="rainbow-btn txt-btn btn--primary"><span>Contact now</span></a>
             </div>
+            <img src="index/assets/location-miamijpg.jpg" alt="" width="40%" class="location__img">
+        </section>
+
+        <section class="benefits-section padding-horizontal">
+            <p class="titulo-gradiente">Benefits</p>
+            <div class="benefits__group">
+                <div class="benefits__card">
+                    <div class="benefits__items">
+                        <div class="benefit">
+                            <img src="index/assets/benefits-icons-1.svg" alt="" class="benefit__img">
+                            <p class="txt-stitle color--white txt-aling--center">We handle the best materials</p>
+                            <p class="txt-body color--white-soft txt-aling--center">A wide range of materials <br> to suit your needs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefits__card">
+                    <div class="benefits__items">
+                        <div class="benefit">
+                            <img src="index/assets/benefits-icons.svg" alt="" class="benefit__img">
+                            <p class="txt-stitle color--white txt-aling--center">We adapt to your needs</p>
+                            <p class="txt-body color--white-soft txt-aling--center">We design custom  <br> solutions for your needs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefits__card">
+                    <div class="benefits__items">
+                        <div class="benefit">
+                            <img src="index/assets/benefits-icons-2.svg" alt="" class="benefit__img">
+                            <p class="txt-stitle color--white txt-aling--center">Professional services</p>
+                            <p class="txt-body color--white-soft txt-aling--center">Since 2010. <br> 14 years of experience</p>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
         </section>
 
         <section class="testimonials-section padding-horizontal">
@@ -183,6 +198,7 @@
                     <p class="text-body color--white">"En mi negocio logramos un trabajo excelente."</p>
                 </div>
             </div>
+            <img class="decoration" src="index/assets/Decoration-shape-2.svg" alt="">
         </section>
 
         <section class="request-section padding-horizontal">
@@ -194,19 +210,6 @@
             <img src="index/assets/request-woman-team.png" alt="" width="30%" class="vector--background-vice">
 
         </section>
-        
-
-        <!-- decoration old -->
-        <!-- <img class="decoration--hero-1" src="index/assets/Decoration-shape-3.svg" aria-hidden="true">
-        <img class="decoration--hero-2" src="index/assets/Decoration-shape-2.svg" aria-hidden="true">
-        <img class="decoration--hero-3" src="index/assets/Decoration-shape-1.svg" aria-hidden="true">
-        <img class="decoration--hero-4" src="index/assets/Decoration-shape-4.svg" aria-hidden="true">
-        <img class="decoration--hero-5" src="index/assets/Decoration-shape-2.svg" aria-hidden="true">
-        <img class="decoration--hero-6" src="index/assets/Decoration-shape-3.svg" aria-hidden="true">
-        <img class="decoration--hero-7" src="index/assets/Decoration-shape-3.svg" aria-hidden="true">
-        <img class="decoration--hero-8" src="index/assets/Decoration-shape-1.svg" aria-hidden="true">
-        <img class="decoration--hero-9" src="index/assets/Decoration-shape-8.svg" aria-hidden="true"> -->
-        
     </main>
 
     <footer>
@@ -217,12 +220,12 @@
                 <img src="index/assets/Logos/Logo-Empire-graphics-light.svg" alt="" width="200px">
             </div>
             <div class="footer__section footer__section--links">
-                <h4 class="txt-title">Enlaces rápidos</h4>
+                <h4 class="txt-title">Quick links</h4>
                 <ul class="footer__links">
                     <!-- <li><a class="nav-link--white" href="#inicio">Inicio</a></li> -->
-                    <li><a href="#" class="nav-link--white color--white-soft" href="#servicios">Services</a></li>
+                    <li><a href="#" class="nav-link--white color--white-soft" href="#services">Services</a></li>
                     <li><a href="#" class="nav-link--white color--white-soft" href="#contacto">Contact</a></li>
-                    <li><a href="#" class="nav-link--white color--white-soft" href="#nosotros">About</a></li>
+                    <li><a href="#" class="nav-link--white color--white-soft" href="#about">About</a></li>
                 </ul>
             </div>
             <div class="footer__section footer__section--contact">
@@ -231,7 +234,7 @@
                 <p class="txt-body color--white-soft">Email: info@graphicsempire.com</p>
             </div>
             <div class="footer__section footer__section--social">
-                <h4 class="txt-title">Síguenos</h4>
+                <h4 class="txt-title">Social media</h4>
                 <div class="footer__social-links">
                     <!-- <a class="footer__social-link" href="#"><img src="index/assets/facebook-icon.png" alt="Facebook"></a>
                     <a class="footer__social-link" href="#"><img src="index/assets/twitter-icon.png" alt="Twitter"></a> -->
@@ -242,7 +245,7 @@
             </div>
         </div>
         <div class="footer__bottom">
-            <p class="footer__text">&copy; 2025 Graphics Empire. Todos los derechos reservados.</p>
+            <p class="footer__text">&copy; 2025 Graphics Empire. All rights reserved.</p>
         </div>
         <img class="footer-img img-1" src="index/assets/Vectors/vector-2-city.svg" alt="">
         <img class="footer-img img-2" src="index/assets/Vectors/vector-1-palms.svg" alt=""> 
